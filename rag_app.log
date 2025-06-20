@@ -1,0 +1,1365 @@
+2025-06-19 16:03:21,727 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:03:21,727 - __main__ - INFO - Initializing session state
+2025-06-19 16:03:21,728 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:03:21,730 - __main__ - ERROR - No API keys configured
+2025-06-19 16:06:44,997 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:06:44,998 - __main__ - INFO - Initializing session state
+2025-06-19 16:06:44,999 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:06:44,999 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:06:45,000 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:06:45,002 - __main__ - ERROR - No models available
+2025-06-19 16:06:45,004 - __main__ - ERROR - No models available, stopping application
+2025-06-19 16:08:49,895 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:08:49,896 - __main__ - INFO - Initializing session state
+2025-06-19 16:08:49,898 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:08:49,898 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:08:49,899 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:08:49,901 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:08:49,907 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:09:00,465 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:09:00,465 - __main__ - INFO - Initializing session state
+2025-06-19 16:09:00,466 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:09:00,466 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:09:00,466 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:09:00,470 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:09:00,475 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:09:00,483 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:09:00,485 - __main__ - INFO - Total upload size: 0.1 MB
+2025-06-19 16:09:13,153 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:09:13,153 - __main__ - INFO - Initializing session state
+2025-06-19 16:09:13,153 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:09:13,153 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:09:13,155 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:09:13,156 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:09:13,158 - __main__ - INFO - Selected OpenAI model: gpt-4
+2025-06-19 16:09:13,165 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:09:13,171 - __main__ - INFO - Total upload size: 0.1 MB
+2025-06-19 16:09:16,739 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:09:16,740 - __main__ - INFO - Initializing session state
+2025-06-19 16:09:16,740 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:09:16,741 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:09:16,741 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:09:16,743 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:09:16,746 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:09:16,751 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:09:16,754 - __main__ - INFO - Total upload size: 0.1 MB
+2025-06-19 16:09:16,757 - __main__ - INFO - Processing uploaded documents
+2025-06-19 16:09:16,760 - __main__ - INFO - Starting document processing for 1 files
+2025-06-19 16:09:16,761 - __main__ - INFO - Creating RAG pipeline with OpenAI embeddings
+2025-06-19 16:09:16,761 - rag_pipeline - INFO - Initializing RAG Pipeline - chunk_size: 1024, overlap: 200, top_k: 5
+2025-06-19 16:09:16,763 - rag_pipeline - INFO - Setting up OpenAI embedding model: text-embedding-3-small
+2025-06-19 16:09:16,779 - rag_pipeline - INFO - OpenAI embedding model configured successfully
+2025-06-19 16:09:16,982 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-06-19 16:09:16,983 - __main__ - INFO - RAG pipeline created and stored in session state
+2025-06-19 16:09:16,984 - __main__ - INFO - Loading documents from uploaded files
+2025-06-19 16:09:16,984 - rag_pipeline - INFO - Loading 1 documents from upload
+2025-06-19 16:09:16,984 - rag_pipeline - INFO - Processing file: Yug_resume_faculty.pdf
+2025-06-19 16:09:17,197 - rag_pipeline - INFO - Loaded 3 documents from Yug_resume_faculty.pdf
+2025-06-19 16:09:17,198 - rag_pipeline - INFO - Total documents loaded: 3
+2025-06-19 16:09:17,199 - __main__ - INFO - Documents loaded successfully
+2025-06-19 16:09:17,199 - __main__ - INFO - Document stats: {'total_docs': 3, 'total_characters': 2929, 'filenames': ['Yug_resume_faculty.pdf'], 'estimated_tokens': 732}
+2025-06-19 16:09:17,202 - __main__ - INFO - Creating vector index with OpenAI embeddings
+2025-06-19 16:09:17,202 - rag_pipeline - INFO - Creating vector index from 3 documents
+2025-06-19 16:09:17,202 - rag_pipeline - INFO - Creating FAISS index with 1536 dimensions
+2025-06-19 16:09:17,204 - rag_pipeline - INFO - Starting vector index creation with LlamaIndex
+2025-06-19 16:09:19,155 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 16:09:19,411 - rag_pipeline - INFO - Vector index created successfully
+2025-06-19 16:09:19,412 - __main__ - INFO - Vector index created successfully
+2025-06-19 16:09:19,412 - __main__ - INFO - Document processing completed successfully
+2025-06-19 16:09:19,518 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:09:19,519 - __main__ - INFO - Initializing session state
+2025-06-19 16:09:19,519 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:09:19,520 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:09:19,520 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:09:19,521 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:09:19,524 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:09:19,527 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:09:19,530 - __main__ - INFO - Total upload size: 0.1 MB
+2025-06-19 16:09:41,694 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:09:41,695 - __main__ - INFO - Initializing session state
+2025-06-19 16:09:41,695 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:09:41,696 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:09:41,696 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:09:41,699 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:09:41,701 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:09:41,706 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:09:41,709 - __main__ - INFO - Total upload size: 0.1 MB
+2025-06-19 16:09:45,410 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:09:45,411 - __main__ - INFO - Initializing session state
+2025-06-19 16:09:45,411 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:09:45,411 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:09:45,411 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:09:45,414 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:09:45,415 - __main__ - INFO - Selected OpenAI model: gpt-4
+2025-06-19 16:09:45,425 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:09:45,430 - __main__ - INFO - Total upload size: 0.1 MB
+2025-06-19 16:09:47,328 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:09:47,328 - __main__ - INFO - Initializing session state
+2025-06-19 16:09:47,329 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:09:47,329 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:09:47,329 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:09:47,332 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:09:47,335 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:09:47,343 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:09:47,346 - __main__ - INFO - Total upload size: 0.1 MB
+2025-06-19 16:09:47,354 - __main__ - INFO - Query submitted: what is this doc about?
+...
+2025-06-19 16:09:47,354 - __main__ - INFO - Generating response using model: gpt-4
+2025-06-19 16:09:47,357 - rag_pipeline - INFO - Executing query: what is this doc about?
+...
+2025-06-19 16:09:47,359 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 16:09:48,446 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 16:09:54,261 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:09:54,279 - rag_pipeline - INFO - Found 3 source nodes
+2025-06-19 16:09:54,279 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 16:09:54,280 - __main__ - INFO - Response generated in 6.92 seconds
+2025-06-19 16:09:54,281 - __main__ - INFO - Response added to query history
+2025-06-19 16:09:54,284 - __main__ - INFO - Found 3 source nodes
+2025-06-19 16:10:24,614 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:10:24,615 - __main__ - INFO - Initializing session state
+2025-06-19 16:10:24,615 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:10:24,615 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:10:24,616 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:10:24,617 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:10:24,620 - __main__ - INFO - Selected Anthropic model: claude-3-opus
+2025-06-19 16:10:24,627 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:10:24,634 - __main__ - INFO - Total upload size: 0.1 MB
+2025-06-19 16:10:37,364 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:10:37,364 - __main__ - INFO - Initializing session state
+2025-06-19 16:10:37,365 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:10:37,365 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:10:37,366 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:10:37,368 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:10:37,374 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:10:37,384 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:10:37,387 - __main__ - INFO - Total upload size: 0.1 MB
+2025-06-19 16:10:37,395 - __main__ - INFO - Query submitted: what is this doc about?
+...
+2025-06-19 16:10:37,402 - __main__ - INFO - Generating response using model: gpt-4
+2025-06-19 16:10:37,403 - rag_pipeline - INFO - Executing query: what is this doc about?
+...
+2025-06-19 16:10:37,404 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 16:10:38,770 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 16:10:42,457 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:10:42,461 - rag_pipeline - INFO - Found 3 source nodes
+2025-06-19 16:10:42,462 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 16:10:42,463 - __main__ - INFO - Response generated in 5.06 seconds
+2025-06-19 16:10:42,464 - __main__ - INFO - Response added to query history
+2025-06-19 16:10:42,470 - __main__ - INFO - Found 3 source nodes
+2025-06-19 16:10:47,415 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:10:47,415 - __main__ - INFO - Initializing session state
+2025-06-19 16:10:47,416 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:10:47,416 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:10:47,416 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:10:47,418 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:10:47,421 - __main__ - INFO - Selected Anthropic model: claude-3-opus
+2025-06-19 16:10:47,426 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:10:47,429 - __main__ - INFO - Total upload size: 0.1 MB
+2025-06-19 16:10:56,004 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:10:56,005 - __main__ - INFO - Initializing session state
+2025-06-19 16:10:56,006 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:10:56,006 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:10:56,006 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:10:56,009 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:10:56,014 - __main__ - INFO - Selected Anthropic model: claude-3-sonnet
+2025-06-19 16:10:56,024 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:10:56,030 - __main__ - INFO - Total upload size: 0.1 MB
+2025-06-19 16:11:01,958 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:11:01,958 - __main__ - INFO - Initializing session state
+2025-06-19 16:11:01,958 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:11:01,959 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:11:01,959 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:11:01,961 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:11:01,965 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:11:01,970 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:11:01,972 - __main__ - INFO - Total upload size: 0.1 MB
+2025-06-19 16:11:01,980 - __main__ - INFO - Query submitted: what is this doc about?
+...
+2025-06-19 16:11:01,980 - __main__ - INFO - Generating response using model: gpt-4
+2025-06-19 16:11:01,981 - rag_pipeline - INFO - Executing query: what is this doc about?
+...
+2025-06-19 16:11:01,982 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 16:11:03,457 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 16:11:07,988 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:11:07,999 - rag_pipeline - INFO - Found 3 source nodes
+2025-06-19 16:11:08,000 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 16:11:08,000 - __main__ - INFO - Response generated in 6.02 seconds
+2025-06-19 16:11:08,002 - __main__ - INFO - Response added to query history
+2025-06-19 16:11:08,011 - __main__ - INFO - Found 3 source nodes
+2025-06-19 16:11:26,924 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:11:26,925 - __main__ - INFO - Initializing session state
+2025-06-19 16:11:26,925 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:11:26,926 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:11:26,926 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:11:26,928 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:11:26,931 - __main__ - INFO - Selected OpenAI model: gpt-4-turbo
+2025-06-19 16:11:26,960 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:11:26,970 - __main__ - INFO - Total upload size: 0.1 MB
+2025-06-19 16:11:29,232 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:11:29,233 - __main__ - INFO - Initializing session state
+2025-06-19 16:11:29,234 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:11:29,234 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:11:29,234 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:11:29,236 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:11:29,240 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:11:29,247 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:11:29,249 - __main__ - INFO - Total upload size: 0.1 MB
+2025-06-19 16:11:29,253 - __main__ - INFO - Query submitted: what is this doc about?
+...
+2025-06-19 16:11:29,254 - __main__ - INFO - Generating response using model: gpt-4
+2025-06-19 16:11:29,255 - rag_pipeline - INFO - Executing query: what is this doc about?
+...
+2025-06-19 16:11:29,256 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 16:11:30,209 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 16:11:34,359 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:11:34,363 - rag_pipeline - INFO - Found 3 source nodes
+2025-06-19 16:11:34,364 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 16:11:34,365 - __main__ - INFO - Response generated in 5.11 seconds
+2025-06-19 16:11:34,366 - __main__ - INFO - Response added to query history
+2025-06-19 16:11:34,370 - __main__ - INFO - Found 3 source nodes
+2025-06-19 16:11:51,194 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:11:51,195 - __main__ - INFO - Initializing session state
+2025-06-19 16:11:51,196 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:11:51,196 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:11:51,197 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:11:51,199 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:11:51,203 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:11:51,213 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf', 'Rishi_Kr_Sharma.pdf']
+2025-06-19 16:11:51,219 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:11:54,736 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:11:54,737 - __main__ - INFO - Initializing session state
+2025-06-19 16:11:54,737 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:11:54,738 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:11:54,738 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:11:54,740 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:11:54,744 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:11:54,749 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf', 'Rishi_Kr_Sharma.pdf']
+2025-06-19 16:11:54,752 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:11:54,753 - __main__ - INFO - Processing uploaded documents
+2025-06-19 16:11:54,754 - __main__ - INFO - Starting document processing for 2 files
+2025-06-19 16:11:54,754 - __main__ - INFO - Creating RAG pipeline with OpenAI embeddings
+2025-06-19 16:11:54,754 - rag_pipeline - INFO - Initializing RAG Pipeline - chunk_size: 1024, overlap: 200, top_k: 5
+2025-06-19 16:11:54,756 - rag_pipeline - INFO - Setting up OpenAI embedding model: text-embedding-3-small
+2025-06-19 16:11:54,759 - rag_pipeline - INFO - OpenAI embedding model configured successfully
+2025-06-19 16:11:54,759 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-06-19 16:11:54,760 - __main__ - INFO - RAG pipeline created and stored in session state
+2025-06-19 16:11:54,761 - __main__ - INFO - Loading documents from uploaded files
+2025-06-19 16:11:54,762 - rag_pipeline - INFO - Loading 2 documents from upload
+2025-06-19 16:11:54,762 - rag_pipeline - INFO - Processing file: Yug_resume_faculty.pdf
+2025-06-19 16:11:54,828 - rag_pipeline - INFO - Loaded 3 documents from Yug_resume_faculty.pdf
+2025-06-19 16:11:54,828 - rag_pipeline - INFO - Processing file: Rishi_Kr_Sharma.pdf
+2025-06-19 16:11:54,935 - rag_pipeline - INFO - Loaded 3 documents from Rishi_Kr_Sharma.pdf
+2025-06-19 16:11:54,936 - rag_pipeline - INFO - Total documents loaded: 6
+2025-06-19 16:11:54,937 - __main__ - INFO - Documents loaded successfully
+2025-06-19 16:11:54,938 - __main__ - INFO - Document stats: {'total_docs': 6, 'total_characters': 6499, 'filenames': ['Yug_resume_faculty.pdf', 'Rishi_Kr_Sharma.pdf'], 'estimated_tokens': 1624}
+2025-06-19 16:11:54,943 - __main__ - INFO - Creating vector index with OpenAI embeddings
+2025-06-19 16:11:54,944 - rag_pipeline - INFO - Creating vector index from 6 documents
+2025-06-19 16:11:54,944 - rag_pipeline - INFO - Creating FAISS index with 1536 dimensions
+2025-06-19 16:11:54,945 - rag_pipeline - INFO - Starting vector index creation with LlamaIndex
+2025-06-19 16:11:56,697 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 16:11:57,159 - rag_pipeline - INFO - Vector index created successfully
+2025-06-19 16:11:57,161 - __main__ - INFO - Vector index created successfully
+2025-06-19 16:11:57,163 - __main__ - INFO - Document processing completed successfully
+2025-06-19 16:11:57,275 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:11:57,275 - __main__ - INFO - Initializing session state
+2025-06-19 16:11:57,277 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:11:57,277 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:11:57,277 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:11:57,279 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:11:57,283 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:11:57,288 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf', 'Rishi_Kr_Sharma.pdf']
+2025-06-19 16:11:57,295 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:12:08,944 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:12:08,945 - __main__ - INFO - Initializing session state
+2025-06-19 16:12:08,945 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:12:08,946 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:12:08,946 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:12:08,949 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:12:08,952 - __main__ - INFO - Selected OpenAI model: gpt-3.5-turbo
+2025-06-19 16:12:08,962 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf', 'Rishi_Kr_Sharma.pdf']
+2025-06-19 16:12:08,965 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:12:26,117 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:12:26,118 - __main__ - INFO - Initializing session state
+2025-06-19 16:12:26,119 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:12:26,119 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:12:26,119 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:12:26,121 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:12:26,125 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:12:26,131 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf', 'Rishi_Kr_Sharma.pdf']
+2025-06-19 16:12:26,137 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:12:56,466 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:12:56,466 - __main__ - INFO - Initializing session state
+2025-06-19 16:12:56,467 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:12:56,467 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:12:56,467 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:12:56,469 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:12:56,474 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:12:56,486 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf', 'Rishi_Kr_Sharma.pdf']
+2025-06-19 16:12:56,492 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:13:02,145 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:13:02,146 - __main__ - INFO - Initializing session state
+2025-06-19 16:13:02,146 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:13:02,146 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:13:02,147 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:13:02,149 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:13:02,151 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:13:02,157 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf', 'Rishi_Kr_Sharma.pdf']
+2025-06-19 16:13:02,166 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:13:08,334 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:13:08,334 - __main__ - INFO - Initializing session state
+2025-06-19 16:13:08,334 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:13:08,335 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:13:08,335 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:13:08,337 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:13:08,341 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:13:08,348 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf', 'Rishi_Kr_Sharma.pdf']
+2025-06-19 16:13:08,353 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:13:40,742 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:13:40,744 - __main__ - INFO - Initializing session state
+2025-06-19 16:13:40,745 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:13:40,745 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:13:40,745 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:13:40,748 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:13:40,754 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:13:40,759 - __main__ - INFO - Files uploaded: ['Yug_resume_faculty.pdf', 'Rishi_Kr_Sharma.pdf']
+2025-06-19 16:13:40,762 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:14:28,734 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:14:28,735 - __main__ - INFO - Initializing session state
+2025-06-19 16:14:28,736 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:14:28,736 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:14:28,736 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:14:28,741 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:14:28,745 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:14:40,588 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:14:40,588 - __main__ - INFO - Initializing session state
+2025-06-19 16:14:40,591 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:14:40,591 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:14:40,591 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:14:40,594 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:14:40,597 - __main__ - INFO - Selected OpenAI model: gpt-4-turbo
+2025-06-19 16:14:57,544 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:14:57,544 - __main__ - INFO - Initializing session state
+2025-06-19 16:14:57,545 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:14:57,545 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:14:57,545 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:14:57,548 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:14:57,555 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:14:57,561 - __main__ - INFO - Files uploaded: ['Rishi_Kr_Sharma.pdf']
+2025-06-19 16:14:57,566 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:15:12,499 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:15:12,500 - __main__ - INFO - Initializing session state
+2025-06-19 16:15:12,500 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:15:12,501 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:15:12,501 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:15:12,502 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:15:12,506 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:15:12,512 - __main__ - INFO - Files uploaded: ['Rishi_Kr_Sharma.pdf']
+2025-06-19 16:15:12,519 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:15:12,520 - __main__ - INFO - Processing uploaded documents
+2025-06-19 16:15:12,520 - __main__ - INFO - Starting document processing for 1 files
+2025-06-19 16:15:12,521 - __main__ - INFO - Creating RAG pipeline with OpenAI embeddings
+2025-06-19 16:15:12,522 - rag_pipeline - INFO - Initializing RAG Pipeline - chunk_size: 1024, overlap: 200, top_k: 5
+2025-06-19 16:15:12,523 - rag_pipeline - INFO - Setting up OpenAI embedding model: text-embedding-3-small
+2025-06-19 16:15:12,525 - rag_pipeline - INFO - OpenAI embedding model configured successfully
+2025-06-19 16:15:12,701 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-06-19 16:15:12,702 - __main__ - INFO - RAG pipeline created and stored in session state
+2025-06-19 16:15:12,705 - __main__ - INFO - Loading documents from uploaded files
+2025-06-19 16:15:12,705 - rag_pipeline - INFO - Loading 1 documents from upload
+2025-06-19 16:15:12,706 - rag_pipeline - INFO - Processing file: Rishi_Kr_Sharma.pdf
+2025-06-19 16:15:12,930 - rag_pipeline - INFO - Loaded 3 documents from Rishi_Kr_Sharma.pdf
+2025-06-19 16:15:12,931 - rag_pipeline - INFO - Total documents loaded: 3
+2025-06-19 16:15:12,931 - __main__ - INFO - Documents loaded successfully
+2025-06-19 16:15:12,933 - __main__ - INFO - Document stats: {'total_docs': 3, 'total_characters': 3570, 'filenames': ['Rishi_Kr_Sharma.pdf'], 'estimated_tokens': 892}
+2025-06-19 16:15:12,935 - __main__ - INFO - Creating vector index with OpenAI embeddings
+2025-06-19 16:15:12,936 - rag_pipeline - INFO - Creating vector index from 3 documents
+2025-06-19 16:15:12,936 - rag_pipeline - INFO - Creating FAISS index with 1536 dimensions
+2025-06-19 16:15:12,937 - rag_pipeline - INFO - Starting vector index creation with LlamaIndex
+2025-06-19 16:15:14,312 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 16:15:14,548 - rag_pipeline - INFO - Vector index created successfully
+2025-06-19 16:15:14,548 - __main__ - INFO - Vector index created successfully
+2025-06-19 16:15:14,549 - __main__ - INFO - Document processing completed successfully
+2025-06-19 16:15:14,654 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:15:14,656 - __main__ - INFO - Initializing session state
+2025-06-19 16:15:14,656 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:15:14,656 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:15:14,657 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:15:14,658 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:15:14,661 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:15:14,665 - __main__ - INFO - Files uploaded: ['Rishi_Kr_Sharma.pdf']
+2025-06-19 16:15:14,667 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:15:42,170 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:15:42,171 - __main__ - INFO - Initializing session state
+2025-06-19 16:15:42,171 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:15:42,171 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:15:42,172 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:15:42,173 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:15:42,175 - __main__ - INFO - Selected OpenAI model: gpt-4-turbo
+2025-06-19 16:15:42,185 - __main__ - INFO - Files uploaded: ['Rishi_Kr_Sharma.pdf']
+2025-06-19 16:15:42,193 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:23:43,639 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:23:43,639 - __main__ - INFO - Initializing session state
+2025-06-19 16:23:43,640 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:23:43,641 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:23:43,641 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:23:43,643 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:23:43,648 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:23:43,652 - __main__ - INFO - Files uploaded: ['Rishi_Kr_Sharma.pdf']
+2025-06-19 16:23:43,654 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:23:45,488 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:23:45,489 - __main__ - INFO - Initializing session state
+2025-06-19 16:23:45,489 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:23:45,489 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:23:45,489 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:23:45,492 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:23:45,495 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:23:45,500 - __main__ - INFO - Files uploaded: ['Rishi_Kr_Sharma.pdf']
+2025-06-19 16:23:45,502 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:23:47,238 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:23:47,240 - __main__ - INFO - Initializing session state
+2025-06-19 16:23:47,240 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:23:47,240 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:23:47,241 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:23:47,243 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:23:47,247 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:23:47,251 - __main__ - INFO - Files uploaded: ['Rishi_Kr_Sharma.pdf']
+2025-06-19 16:23:47,252 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:23:48,704 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:23:48,705 - __main__ - INFO - Initializing session state
+2025-06-19 16:23:48,706 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:23:48,706 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:23:48,706 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:23:48,709 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:23:48,712 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:23:48,716 - __main__ - INFO - Files uploaded: ['Rishi_Kr_Sharma.pdf']
+2025-06-19 16:23:48,718 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:23:49,034 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:23:49,035 - __main__ - INFO - Initializing session state
+2025-06-19 16:23:49,036 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:23:49,037 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:23:49,037 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:23:49,040 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:23:49,043 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:23:49,054 - __main__ - INFO - Files uploaded: ['Rishi_Kr_Sharma.pdf']
+2025-06-19 16:23:49,056 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:23:49,342 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:23:49,343 - __main__ - INFO - Initializing session state
+2025-06-19 16:23:49,344 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:23:49,345 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:23:49,345 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:23:49,350 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:23:49,356 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:23:49,369 - __main__ - INFO - Files uploaded: ['Rishi_Kr_Sharma.pdf']
+2025-06-19 16:23:49,372 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:28:01,371 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:28:01,372 - __main__ - INFO - Initializing session state
+2025-06-19 16:28:01,372 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:28:01,372 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:28:01,372 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:28:01,374 - __main__ - INFO - Available models: ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku']
+2025-06-19 16:28:01,377 - __main__ - INFO - Using default model: gpt-4
+2025-06-19 16:28:01,381 - __main__ - INFO - Files uploaded: ['Rishi_Kr_Sharma.pdf']
+2025-06-19 16:28:01,383 - __main__ - INFO - Total upload size: 0.4 MB
+2025-06-19 16:38:47,020 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:38:47,021 - __main__ - INFO - Initializing session state
+2025-06-19 16:38:47,023 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:38:47,023 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:38:47,023 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:39:09,027 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:39:09,027 - __main__ - INFO - Initializing session state
+2025-06-19 16:39:09,028 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:39:09,028 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:39:09,028 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:39:14,233 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:39:14,234 - __main__ - INFO - Initializing session state
+2025-06-19 16:39:14,234 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:39:14,234 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:39:14,235 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:39:14,242 - __main__ - INFO - Documents loaded: ['Yug_resume_faculty.pdf']
+2025-06-19 16:39:14,355 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:39:14,356 - __main__ - INFO - Initializing session state
+2025-06-19 16:39:14,356 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:39:14,356 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:39:14,357 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:39:27,676 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:39:27,678 - __main__ - INFO - Initializing session state
+2025-06-19 16:39:27,678 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:39:27,679 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:39:27,679 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:39:33,437 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:39:33,438 - __main__ - INFO - Initializing session state
+2025-06-19 16:39:33,438 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:39:33,439 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:39:33,439 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:39:50,571 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:39:50,572 - __main__ - INFO - Initializing session state
+2025-06-19 16:39:50,572 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:39:50,573 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:39:50,573 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:39:56,118 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:39:56,120 - __main__ - INFO - Initializing session state
+2025-06-19 16:39:56,121 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:39:56,121 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:39:56,122 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:39:57,954 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:39:57,955 - __main__ - INFO - Initializing session state
+2025-06-19 16:39:57,956 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:39:57,956 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:39:57,956 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:00,291 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:00,292 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:00,292 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:00,293 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:00,293 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:00,608 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:00,609 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:00,609 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:00,610 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:00,610 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:02,242 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:02,243 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:02,244 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:02,244 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:02,245 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:03,790 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:03,791 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:03,791 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:03,792 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:03,792 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:04,009 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:04,010 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:04,010 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:04,011 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:04,011 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:07,223 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:07,223 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:07,224 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:07,224 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:07,225 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:09,703 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:09,704 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:09,705 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:09,705 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:09,706 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:10,606 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:10,607 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:10,608 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:10,608 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:10,608 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:11,591 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:11,592 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:11,592 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:11,592 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:11,593 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:12,318 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:12,319 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:12,320 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:12,320 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:12,320 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:13,290 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:13,291 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:13,292 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:13,293 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:13,293 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:16,138 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:16,138 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:16,139 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:16,140 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:16,140 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:18,203 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:18,204 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:18,205 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:18,205 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:18,206 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:19,947 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:19,948 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:19,948 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:19,949 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:19,949 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:20,083 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:20,086 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:20,086 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:20,088 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:20,088 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:33,745 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:33,745 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:33,745 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:33,746 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:33,746 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:33,755 - __main__ - INFO - Starting embedding generation
+2025-06-19 16:40:33,756 - rag_pipeline - INFO - Initializing RAG Pipeline - chunk_size: 1152, overlap: 50, top_k: 7
+2025-06-19 16:40:33,756 - rag_pipeline - INFO - Setting up OpenAI embedding model: text-embedding-3-small
+2025-06-19 16:40:33,759 - rag_pipeline - INFO - OpenAI embedding model configured successfully
+2025-06-19 16:40:33,949 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-06-19 16:40:33,950 - rag_pipeline - INFO - Loading 1 documents from upload
+2025-06-19 16:40:33,951 - rag_pipeline - INFO - Processing file: Yug_resume_faculty.pdf
+2025-06-19 16:40:34,105 - rag_pipeline - INFO - Loaded 3 documents from Yug_resume_faculty.pdf
+2025-06-19 16:40:34,106 - rag_pipeline - INFO - Total documents loaded: 3
+2025-06-19 16:40:34,109 - rag_pipeline - INFO - Creating vector index from 3 documents
+2025-06-19 16:40:34,110 - rag_pipeline - INFO - Creating FAISS index with 1536 dimensions
+2025-06-19 16:40:34,111 - rag_pipeline - INFO - Starting vector index creation with LlamaIndex
+2025-06-19 16:40:36,355 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 16:40:36,611 - rag_pipeline - INFO - Vector index created successfully
+2025-06-19 16:40:36,614 - __main__ - INFO - Embedding generation completed successfully
+2025-06-19 16:40:36,711 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:36,711 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:36,712 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:36,714 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:36,715 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:40:58,948 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:40:58,948 - __main__ - INFO - Initializing session state
+2025-06-19 16:40:58,950 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:40:58,950 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:40:58,951 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:41:16,739 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:41:16,740 - __main__ - INFO - Initializing session state
+2025-06-19 16:41:16,740 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:41:16,741 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:41:16,741 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:41:17,757 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:41:17,757 - __main__ - INFO - Initializing session state
+2025-06-19 16:41:17,757 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:41:17,758 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:41:17,758 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:41:17,788 - __main__ - INFO - Starting comparison mode with models: ['gpt-4', 'gpt-4-turbo']
+2025-06-19 16:41:17,792 - __main__ - INFO - Getting response from GPT-4
+2025-06-19 16:41:17,794 - rag_pipeline - INFO - Executing query: what is this document about...
+2025-06-19 16:41:17,798 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 16:41:18,925 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 16:41:25,686 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:41:25,703 - rag_pipeline - INFO - Found 3 source nodes
+2025-06-19 16:41:25,704 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 16:41:25,704 - __main__ - INFO - Response received from GPT-4
+2025-06-19 16:41:25,705 - __main__ - INFO - Getting response from GPT-4 Turbo
+2025-06-19 16:41:25,707 - rag_pipeline - INFO - Executing query: what is this document about...
+2025-06-19 16:41:25,708 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 16:41:26,423 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 16:41:30,889 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:41:30,895 - rag_pipeline - INFO - Found 3 source nodes
+2025-06-19 16:41:30,896 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 16:41:30,896 - __main__ - INFO - Response received from GPT-4 Turbo
+2025-06-19 16:41:30,899 - __main__ - INFO - Displaying comparison results
+2025-06-19 16:46:57,850 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:46:57,853 - __main__ - INFO - Initializing session state
+2025-06-19 16:46:57,853 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:46:57,853 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:46:57,853 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:52:23,445 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:52:23,446 - __main__ - INFO - Initializing session state
+2025-06-19 16:52:23,448 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:52:23,448 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:52:23,448 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:52:49,452 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:52:49,452 - __main__ - INFO - Initializing session state
+2025-06-19 16:52:49,452 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:52:49,453 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:52:49,453 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:52:53,180 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:52:53,180 - __main__ - INFO - Initializing session state
+2025-06-19 16:52:53,180 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:52:53,181 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:52:53,181 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:52:53,186 - __main__ - INFO - Documents loaded: ['Rishi_Kr_Sharma.pdf']
+2025-06-19 16:52:53,303 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:52:53,304 - __main__ - INFO - Initializing session state
+2025-06-19 16:52:53,304 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:52:53,305 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:52:53,305 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:19,696 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:53:19,697 - __main__ - INFO - Initializing session state
+2025-06-19 16:53:19,697 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:53:19,697 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:53:19,698 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:19,945 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:53:19,946 - __main__ - INFO - Initializing session state
+2025-06-19 16:53:19,946 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:53:19,947 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:53:19,947 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:23,726 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:53:23,726 - __main__ - INFO - Initializing session state
+2025-06-19 16:53:23,726 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:53:23,728 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:53:23,728 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:25,266 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:53:25,267 - __main__ - INFO - Initializing session state
+2025-06-19 16:53:25,268 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:53:25,268 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:53:25,268 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:26,293 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:53:26,293 - __main__ - INFO - Initializing session state
+2025-06-19 16:53:26,294 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:53:26,294 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:53:26,294 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:26,740 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:53:26,741 - __main__ - INFO - Initializing session state
+2025-06-19 16:53:26,741 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:53:26,741 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:53:26,742 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:28,981 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:53:28,981 - __main__ - INFO - Initializing session state
+2025-06-19 16:53:28,983 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:53:28,984 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:53:28,984 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:30,259 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:53:30,260 - __main__ - INFO - Initializing session state
+2025-06-19 16:53:30,260 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:53:30,260 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:53:30,261 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:41,686 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:53:41,686 - __main__ - INFO - Initializing session state
+2025-06-19 16:53:41,687 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:53:41,687 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:53:41,687 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:42,039 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:53:42,040 - __main__ - INFO - Initializing session state
+2025-06-19 16:53:42,041 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:53:42,041 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:53:42,041 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:44,831 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:53:44,832 - __main__ - INFO - Initializing session state
+2025-06-19 16:53:44,832 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:53:44,833 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:53:44,833 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:48,172 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:53:48,172 - __main__ - INFO - Initializing session state
+2025-06-19 16:53:48,173 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:53:48,173 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:53:48,173 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:48,251 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:53:48,251 - __main__ - INFO - Initializing session state
+2025-06-19 16:53:48,252 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:53:48,253 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:53:48,253 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:57,988 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:53:57,989 - __main__ - INFO - Initializing session state
+2025-06-19 16:53:57,989 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:53:57,989 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:53:57,991 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:53:57,999 - __main__ - INFO - Starting embedding generation
+2025-06-19 16:53:57,999 - rag_pipeline - INFO - Initializing RAG Pipeline - chunk_size: 1792, overlap: 50, top_k: 5
+2025-06-19 16:53:58,000 - rag_pipeline - INFO - Setting up OpenAI embedding model: text-embedding-3-small
+2025-06-19 16:53:58,003 - rag_pipeline - INFO - OpenAI embedding model configured successfully
+2025-06-19 16:53:58,130 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-06-19 16:53:58,132 - rag_pipeline - INFO - Loading 1 documents from upload
+2025-06-19 16:53:58,132 - rag_pipeline - INFO - Processing file: Rishi_Kr_Sharma.pdf
+2025-06-19 16:53:58,269 - rag_pipeline - INFO - Loaded 3 documents from Rishi_Kr_Sharma.pdf
+2025-06-19 16:53:58,270 - rag_pipeline - INFO - Total documents loaded: 3
+2025-06-19 16:53:58,273 - rag_pipeline - INFO - Creating vector index from 3 documents
+2025-06-19 16:53:58,273 - rag_pipeline - INFO - Creating FAISS index with 1536 dimensions
+2025-06-19 16:53:58,274 - rag_pipeline - INFO - Starting vector index creation with LlamaIndex
+2025-06-19 16:53:59,849 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 16:54:00,088 - rag_pipeline - INFO - Vector index created successfully
+2025-06-19 16:54:00,090 - __main__ - INFO - Embedding generation completed successfully
+2025-06-19 16:54:00,163 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:54:00,164 - __main__ - INFO - Initializing session state
+2025-06-19 16:54:00,164 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:54:00,165 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:54:00,167 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:54:19,982 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:54:19,982 - __main__ - INFO - Initializing session state
+2025-06-19 16:54:19,983 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:54:19,983 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:54:19,983 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:54:29,668 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:54:29,669 - __main__ - INFO - Initializing session state
+2025-06-19 16:54:29,670 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:54:29,670 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:54:29,671 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:54:32,824 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 16:54:32,824 - __main__ - INFO - Initializing session state
+2025-06-19 16:54:32,825 - __main__ - INFO - Checking API keys configuration
+2025-06-19 16:54:32,825 - __main__ - INFO - OpenAI API key configured
+2025-06-19 16:54:32,825 - __main__ - INFO - Anthropic API key configured
+2025-06-19 16:54:32,838 - __main__ - INFO - Generating response using model: gpt-4-turbo
+2025-06-19 16:54:32,839 - rag_pipeline - INFO - Executing query: what is this document about ?...
+2025-06-19 16:54:32,840 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 16:54:33,551 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 16:54:37,700 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:54:37,712 - rag_pipeline - INFO - Found 3 source nodes
+2025-06-19 16:54:37,712 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 16:54:37,712 - __main__ - INFO - Response generated in 4.87 seconds
+2025-06-19 16:54:37,715 - __main__ - INFO - Found 3 source nodes
+2025-06-19 17:01:19,519 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:01:19,520 - __main__ - INFO - Initializing session state
+2025-06-19 17:01:19,523 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:01:19,524 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:01:19,524 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:02:45,687 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:02:45,687 - __main__ - INFO - Initializing session state
+2025-06-19 17:02:45,687 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:02:45,687 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:02:45,688 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:02:49,699 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:02:49,700 - __main__ - INFO - Initializing session state
+2025-06-19 17:02:49,700 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:02:49,700 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:02:49,700 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:02:49,706 - __main__ - INFO - Documents loaded: ['AI_Developer_RAG.pdf']
+2025-06-19 17:02:49,829 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:02:49,829 - __main__ - INFO - Initializing session state
+2025-06-19 17:02:49,829 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:02:49,830 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:02:49,830 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:03:00,053 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:03:00,054 - __main__ - INFO - Initializing session state
+2025-06-19 17:03:00,055 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:03:00,055 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:03:00,056 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:03:02,340 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:03:02,340 - __main__ - INFO - Initializing session state
+2025-06-19 17:03:02,340 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:03:02,341 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:03:02,341 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:03:02,628 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:03:02,629 - __main__ - INFO - Initializing session state
+2025-06-19 17:03:02,629 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:03:02,631 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:03:02,631 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:03:05,806 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:03:05,807 - __main__ - INFO - Initializing session state
+2025-06-19 17:03:05,808 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:03:05,809 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:03:05,809 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:03:07,550 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:03:07,551 - __main__ - INFO - Initializing session state
+2025-06-19 17:03:07,551 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:03:07,551 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:03:07,551 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:03:07,686 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:03:07,689 - __main__ - INFO - Initializing session state
+2025-06-19 17:03:07,689 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:03:07,690 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:03:07,690 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:03:15,966 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:03:15,967 - __main__ - INFO - Initializing session state
+2025-06-19 17:03:15,967 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:03:15,968 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:03:15,968 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:03:15,978 - __main__ - INFO - Starting embedding generation
+2025-06-19 17:03:15,978 - rag_pipeline - INFO - Initializing RAG Pipeline - chunk_size: 512, overlap: 50, top_k: 5
+2025-06-19 17:03:15,978 - rag_pipeline - INFO - Setting up OpenAI embedding model: text-embedding-3-small
+2025-06-19 17:03:15,982 - rag_pipeline - INFO - OpenAI embedding model configured successfully
+2025-06-19 17:03:16,225 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-06-19 17:03:16,227 - rag_pipeline - INFO - Loading 1 documents from upload
+2025-06-19 17:03:16,228 - rag_pipeline - INFO - Processing file: AI_Developer_RAG.pdf
+2025-06-19 17:03:16,408 - rag_pipeline - INFO - Loaded 1 documents from AI_Developer_RAG.pdf
+2025-06-19 17:03:16,409 - rag_pipeline - INFO - Total documents loaded: 1
+2025-06-19 17:03:16,412 - rag_pipeline - INFO - Creating vector index from 1 documents
+2025-06-19 17:03:16,413 - rag_pipeline - INFO - Creating FAISS index with 1536 dimensions
+2025-06-19 17:03:16,413 - rag_pipeline - INFO - Starting vector index creation with LlamaIndex
+2025-06-19 17:03:18,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 17:03:18,467 - rag_pipeline - INFO - Vector index created successfully
+2025-06-19 17:03:18,470 - __main__ - INFO - Embedding generation completed successfully
+2025-06-19 17:03:18,616 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:03:18,617 - __main__ - INFO - Initializing session state
+2025-06-19 17:03:18,619 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:03:18,620 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:03:18,620 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:03:23,654 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:03:23,654 - __main__ - INFO - Initializing session state
+2025-06-19 17:03:23,655 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:03:23,655 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:03:23,655 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:03:29,348 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:03:29,349 - __main__ - INFO - Initializing session state
+2025-06-19 17:03:29,349 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:03:29,349 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:03:29,350 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:03:32,733 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:03:32,733 - __main__ - INFO - Initializing session state
+2025-06-19 17:03:32,733 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:03:32,735 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:03:32,735 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:03:32,750 - __main__ - INFO - Generating response using model: claude-3-sonnet
+2025-06-19 17:03:32,751 - rag_pipeline - INFO - Executing query: Hi
+...
+2025-06-19 17:03:32,752 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 17:03:33,443 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 17:03:34,105 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2025-06-19 17:03:34,108 - rag_pipeline - ERROR - Error during query: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}}
+Traceback (most recent call last):
+  File "C:\Users\yug.patel\Desktop\Projects\Agentic-RAG\rag_pipeline.py", line 208, in query
+    response = query_engine.query(question)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 323, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\base\base_query_engine.py", line 52, in query
+    query_result = self._query(str_or_query_bundle)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 323, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\query_engine\retriever_query_engine.py", line 183, in _query
+    response = self._response_synthesizer.synthesize(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 323, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\response_synthesizers\base.py", line 242, in synthesize
+    response_str = self.get_response(
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 323, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\response_synthesizers\compact_and_refine.py", line 43, in get_response
+    return super().get_response(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 323, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\response_synthesizers\refine.py", line 179, in get_response
+    response = self._give_response_single(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\response_synthesizers\refine.py", line 241, in _give_response_single
+    program(
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 323, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\response_synthesizers\refine.py", line 85, in __call__
+    answer = self._llm.predict(
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 323, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\llms\llm.py", line 641, in predict
+    chat_response = self.chat(messages)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 323, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\llms\callbacks.py", line 175, in wrapped_llm_chat
+    f_return_val = f(_self, messages, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\llms\anthropic\base.py", line 361, in chat
+    response = self._client.messages.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\anthropic\_utils\_utils.py", line 283, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\anthropic\resources\messages\messages.py", line 978, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\anthropic\_base_client.py", line 1307, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yug.patel\AppData\Local\Programs\Python\Python312\Lib\site-packages\anthropic\_base_client.py", line 1102, in request
+    raise self._make_status_error_from_response(err.response) from None
+anthropic.AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}}
+2025-06-19 17:03:34,331 - __main__ - INFO - Response generated in 1.58 seconds
+2025-06-19 17:03:34,331 - __main__ - ERROR - Query error: Error during query: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}}
+2025-06-19 17:03:41,303 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:03:41,304 - __main__ - INFO - Initializing session state
+2025-06-19 17:03:41,306 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:03:41,306 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:03:41,306 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:03:42,518 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:03:42,518 - __main__ - INFO - Initializing session state
+2025-06-19 17:03:42,518 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:03:42,520 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:03:42,520 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:04:22,124 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:04:22,126 - __main__ - INFO - Initializing session state
+2025-06-19 17:04:22,127 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:04:22,127 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:04:22,128 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:04:23,016 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:04:23,016 - __main__ - INFO - Initializing session state
+2025-06-19 17:04:23,017 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:04:23,017 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:04:23,017 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:04:23,032 - __main__ - INFO - Generating response using model: gpt-4-turbo
+2025-06-19 17:04:23,032 - rag_pipeline - INFO - Executing query: What is this document about?
+...
+2025-06-19 17:04:23,034 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 17:04:24,424 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 17:04:30,359 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 17:04:30,372 - rag_pipeline - INFO - Found 1 source nodes
+2025-06-19 17:04:30,373 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 17:04:30,374 - __main__ - INFO - Response generated in 7.34 seconds
+2025-06-19 17:04:30,379 - __main__ - INFO - Found 1 source nodes
+2025-06-19 17:04:40,303 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:04:40,303 - __main__ - INFO - Initializing session state
+2025-06-19 17:04:40,304 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:04:40,304 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:04:40,305 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:04:40,474 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:04:40,474 - __main__ - INFO - Initializing session state
+2025-06-19 17:04:40,474 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:04:40,475 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:04:40,475 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:04:40,493 - __main__ - INFO - Generating response using model: gpt-4-turbo
+2025-06-19 17:04:40,494 - rag_pipeline - INFO - Executing query: why the sky is blue 
+...
+2025-06-19 17:04:40,496 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 17:04:41,199 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 17:04:45,225 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 17:04:45,229 - rag_pipeline - INFO - Found 1 source nodes
+2025-06-19 17:04:45,231 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 17:04:45,232 - __main__ - INFO - Response generated in 4.74 seconds
+2025-06-19 17:04:45,238 - __main__ - INFO - Found 1 source nodes
+2025-06-19 17:05:27,985 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:05:27,985 - __main__ - INFO - Initializing session state
+2025-06-19 17:05:27,986 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:05:27,986 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:05:27,986 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:06:02,288 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:06:02,289 - __main__ - INFO - Initializing session state
+2025-06-19 17:06:02,289 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:06:02,290 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:06:02,291 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:06:03,181 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:06:03,181 - __main__ - INFO - Initializing session state
+2025-06-19 17:06:03,182 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:06:03,182 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:06:03,182 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:06:03,202 - __main__ - INFO - Starting comparison mode with models: ['gpt-4', 'gpt-4-turbo']
+2025-06-19 17:06:03,208 - __main__ - INFO - Getting response from GPT-4
+2025-06-19 17:06:03,211 - rag_pipeline - INFO - Executing query: what is this document about...
+2025-06-19 17:06:03,213 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 17:06:04,130 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 17:06:09,801 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 17:06:09,806 - rag_pipeline - INFO - Found 1 source nodes
+2025-06-19 17:06:09,807 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 17:06:09,808 - __main__ - INFO - Response received from GPT-4
+2025-06-19 17:06:09,810 - __main__ - INFO - Getting response from GPT-4 Turbo
+2025-06-19 17:06:09,813 - rag_pipeline - INFO - Executing query: what is this document about...
+2025-06-19 17:06:09,816 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 17:06:10,994 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 17:06:15,212 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 17:06:15,218 - rag_pipeline - INFO - Found 1 source nodes
+2025-06-19 17:06:15,219 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 17:06:15,221 - __main__ - INFO - Response received from GPT-4 Turbo
+2025-06-19 17:06:15,222 - __main__ - INFO - Displaying comparison results
+2025-06-19 17:11:57,854 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:11:57,855 - __main__ - INFO - Initializing session state
+2025-06-19 17:11:57,857 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:11:57,858 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:11:57,858 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:12:02,167 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:12:02,168 - __main__ - INFO - Initializing session state
+2025-06-19 17:12:02,168 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:12:02,169 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:12:02,169 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:12:03,909 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:12:03,909 - __main__ - INFO - Initializing session state
+2025-06-19 17:12:03,909 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:12:03,910 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:12:03,910 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:12:03,916 - __main__ - INFO - Documents loaded: ['Yug_resume_faculty.pdf']
+2025-06-19 17:12:04,056 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:12:04,057 - __main__ - INFO - Initializing session state
+2025-06-19 17:12:04,057 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:12:04,058 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:12:04,058 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:12:06,209 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:12:06,210 - __main__ - INFO - Initializing session state
+2025-06-19 17:12:06,210 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:12:06,211 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:12:06,211 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:12:06,375 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:12:06,375 - __main__ - INFO - Initializing session state
+2025-06-19 17:12:06,376 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:12:06,377 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:12:06,377 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:12:09,926 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:12:09,926 - __main__ - INFO - Initializing session state
+2025-06-19 17:12:09,927 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:12:09,927 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:12:09,927 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:12:09,937 - __main__ - INFO - Starting embedding generation
+2025-06-19 17:12:09,938 - rag_pipeline - INFO - Initializing RAG Pipeline - chunk_size: 1024, overlap: 200, top_k: 5
+2025-06-19 17:12:09,938 - rag_pipeline - INFO - Setting up OpenAI embedding model: text-embedding-3-small
+2025-06-19 17:12:09,941 - rag_pipeline - INFO - OpenAI embedding model configured successfully
+2025-06-19 17:12:09,942 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-06-19 17:12:09,945 - rag_pipeline - INFO - Loading 1 documents from upload
+2025-06-19 17:12:09,947 - rag_pipeline - INFO - Processing file: Yug_resume_faculty.pdf
+2025-06-19 17:12:10,039 - rag_pipeline - INFO - Loaded 3 documents from Yug_resume_faculty.pdf
+2025-06-19 17:12:10,040 - rag_pipeline - INFO - Total documents loaded: 3
+2025-06-19 17:12:10,047 - rag_pipeline - INFO - Creating vector index from 3 documents
+2025-06-19 17:12:10,048 - rag_pipeline - INFO - Creating FAISS index with 1536 dimensions
+2025-06-19 17:12:10,049 - rag_pipeline - INFO - Starting vector index creation with LlamaIndex
+2025-06-19 17:12:11,378 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 17:12:11,611 - rag_pipeline - INFO - Vector index created successfully
+2025-06-19 17:12:11,614 - __main__ - INFO - Embedding generation completed successfully
+2025-06-19 17:12:11,740 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:12:11,740 - __main__ - INFO - Initializing session state
+2025-06-19 17:12:11,741 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:12:11,741 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:12:11,742 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:12:15,894 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:12:15,894 - __main__ - INFO - Initializing session state
+2025-06-19 17:12:15,895 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:12:15,895 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:12:15,895 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:12:25,244 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:12:25,245 - __main__ - INFO - Initializing session state
+2025-06-19 17:12:25,245 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:12:25,246 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:12:25,246 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:12:26,309 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:12:26,310 - __main__ - INFO - Initializing session state
+2025-06-19 17:12:26,310 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:12:26,310 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:12:26,311 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:12:26,337 - __main__ - INFO - Starting comparison mode with models: ['gpt-4', 'gpt-4-turbo']
+2025-06-19 17:12:26,338 - __main__ - INFO - Getting response from GPT-4
+2025-06-19 17:12:26,341 - rag_pipeline - INFO - Executing query: what is this doc about...
+2025-06-19 17:12:26,343 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 17:12:27,101 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 17:12:31,956 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 17:12:31,960 - rag_pipeline - INFO - Found 3 source nodes
+2025-06-19 17:12:31,962 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 17:12:31,963 - __main__ - INFO - Response received from GPT-4
+2025-06-19 17:12:31,964 - __main__ - INFO - Getting response from GPT-4 Turbo
+2025-06-19 17:12:31,967 - rag_pipeline - INFO - Executing query: what is this doc about...
+2025-06-19 17:12:31,969 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 17:12:32,368 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 17:12:35,478 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 17:12:35,483 - rag_pipeline - INFO - Found 3 source nodes
+2025-06-19 17:12:35,485 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 17:12:35,485 - __main__ - INFO - Response received from GPT-4 Turbo
+2025-06-19 17:12:35,487 - __main__ - INFO - Displaying comparison results
+2025-06-19 17:12:54,789 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:12:54,790 - __main__ - INFO - Initializing session state
+2025-06-19 17:12:54,791 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:12:54,791 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:12:54,791 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:12:54,980 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:12:54,980 - __main__ - INFO - Initializing session state
+2025-06-19 17:12:54,981 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:12:54,982 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:12:54,982 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:12:55,002 - __main__ - INFO - Starting comparison mode with models: ['gpt-4', 'gpt-4-turbo']
+2025-06-19 17:12:55,004 - __main__ - INFO - Getting response from GPT-4
+2025-06-19 17:12:55,006 - rag_pipeline - INFO - Executing query: why the sky is blue...
+2025-06-19 17:12:55,008 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 17:12:56,073 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 17:12:58,169 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 17:12:58,174 - rag_pipeline - INFO - Found 3 source nodes
+2025-06-19 17:12:58,176 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 17:12:58,176 - __main__ - INFO - Response received from GPT-4
+2025-06-19 17:12:58,178 - __main__ - INFO - Getting response from GPT-4 Turbo
+2025-06-19 17:12:58,181 - rag_pipeline - INFO - Executing query: why the sky is blue...
+2025-06-19 17:12:58,183 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 17:12:59,131 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 17:13:02,505 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 17:13:02,510 - rag_pipeline - INFO - Found 3 source nodes
+2025-06-19 17:13:02,511 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 17:13:02,512 - __main__ - INFO - Response received from GPT-4 Turbo
+2025-06-19 17:13:02,514 - __main__ - INFO - Displaying comparison results
+2025-06-19 17:13:28,055 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:13:28,056 - __main__ - INFO - Initializing session state
+2025-06-19 17:13:28,056 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:13:28,057 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:13:28,057 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:30:18,417 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:30:18,418 - __main__ - INFO - Initializing session state
+2025-06-19 17:30:18,420 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:30:18,420 - __main__ - WARNING - OpenAI API key not configured - OpenAI models and embeddings will not be available
+2025-06-19 17:32:17,233 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:32:17,233 - __main__ - INFO - Initializing session state
+2025-06-19 17:32:17,234 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:32:17,236 - __main__ - WARNING - OpenAI API key not configured - OpenAI models and embeddings will not be available
+2025-06-19 17:32:23,494 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:32:23,495 - __main__ - INFO - Initializing session state
+2025-06-19 17:32:23,496 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:32:23,497 - __main__ - WARNING - OpenAI API key not configured - OpenAI models and embeddings will not be available
+2025-06-19 17:32:24,145 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:32:24,146 - __main__ - INFO - Initializing session state
+2025-06-19 17:32:24,147 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:32:24,147 - __main__ - WARNING - OpenAI API key not configured - OpenAI models and embeddings will not be available
+2025-06-19 17:34:38,374 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:34:38,375 - __main__ - INFO - Initializing session state
+2025-06-19 17:34:38,376 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:34:38,377 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:34:38,377 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:34:53,356 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:34:53,358 - __main__ - INFO - Initializing session state
+2025-06-19 17:34:53,359 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:34:53,359 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:34:53,359 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:34:54,887 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:34:54,887 - __main__ - INFO - Initializing session state
+2025-06-19 17:34:54,893 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:34:54,894 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:34:54,894 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:34:54,900 - __main__ - INFO - Documents loaded: ['Yug_resume_faculty.pdf']
+2025-06-19 17:34:55,022 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:34:55,025 - __main__ - INFO - Initializing session state
+2025-06-19 17:34:55,026 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:34:55,027 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:34:55,028 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:34:56,944 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:34:56,945 - __main__ - INFO - Initializing session state
+2025-06-19 17:34:56,945 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:34:56,947 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:34:56,947 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:34:57,079 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:34:57,079 - __main__ - INFO - Initializing session state
+2025-06-19 17:34:57,080 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:34:57,080 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:34:57,081 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:34:58,528 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:34:58,529 - __main__ - INFO - Initializing session state
+2025-06-19 17:34:58,529 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:34:58,529 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:34:58,530 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:34:58,540 - __main__ - INFO - Starting embedding generation
+2025-06-19 17:34:58,543 - rag_pipeline - INFO - Initializing RAG Pipeline - chunk_size: 1024, overlap: 200, top_k: 5
+2025-06-19 17:34:58,543 - rag_pipeline - INFO - Setting up OpenAI embedding model: text-embedding-3-small
+2025-06-19 17:34:58,547 - rag_pipeline - INFO - OpenAI embedding model configured successfully
+2025-06-19 17:34:58,753 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-06-19 17:34:58,755 - rag_pipeline - INFO - Loading 1 documents from upload
+2025-06-19 17:34:58,757 - rag_pipeline - INFO - Processing file: Yug_resume_faculty.pdf
+2025-06-19 17:34:58,912 - rag_pipeline - INFO - Loaded 3 documents from Yug_resume_faculty.pdf
+2025-06-19 17:34:58,913 - rag_pipeline - INFO - Total documents loaded: 3
+2025-06-19 17:34:58,916 - rag_pipeline - INFO - Creating vector index from 3 documents
+2025-06-19 17:34:58,916 - rag_pipeline - INFO - Creating FAISS index with 1536 dimensions
+2025-06-19 17:34:58,917 - rag_pipeline - INFO - Starting vector index creation with LlamaIndex
+2025-06-19 17:35:00,844 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 17:35:01,084 - rag_pipeline - INFO - Vector index created successfully
+2025-06-19 17:35:01,087 - __main__ - INFO - Embedding generation completed successfully
+2025-06-19 17:35:01,201 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:35:01,202 - __main__ - INFO - Initializing session state
+2025-06-19 17:35:01,202 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:35:01,202 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:35:01,203 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:35:12,512 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:35:12,512 - __main__ - INFO - Initializing session state
+2025-06-19 17:35:12,513 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:35:12,513 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:35:12,513 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:35:17,178 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-19 17:35:17,178 - __main__ - INFO - Initializing session state
+2025-06-19 17:35:17,179 - __main__ - INFO - Checking API keys configuration
+2025-06-19 17:35:17,179 - __main__ - INFO - OpenAI API key configured
+2025-06-19 17:35:17,180 - __main__ - INFO - Anthropic API key configured
+2025-06-19 17:35:17,201 - __main__ - INFO - Generating response using model: gpt-4
+2025-06-19 17:35:17,201 - rag_pipeline - INFO - Executing query: what is this doc about ?
+...
+2025-06-19 17:35:17,204 - rag_pipeline - INFO - Generating response with LLM
+2025-06-19 17:35:18,337 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-19 17:35:25,252 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 17:35:25,274 - rag_pipeline - INFO - Found 3 source nodes
+2025-06-19 17:35:25,276 - rag_pipeline - INFO - Query completed successfully
+2025-06-19 17:35:25,277 - __main__ - INFO - Response generated in 8.08 seconds
+2025-06-19 17:35:25,284 - __main__ - INFO - Found 3 source nodes
+2025-06-20 12:08:05,059 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:08:05,059 - __main__ - INFO - Initializing session state
+2025-06-20 12:08:05,065 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:08:05,065 - __main__ - WARNING - OpenAI API key not configured - OpenAI models and embeddings will not be available
+2025-06-20 12:12:02,982 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:12:02,983 - __main__ - INFO - Initializing session state
+2025-06-20 12:12:02,987 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:12:02,987 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:12:02,992 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:12:12,997 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:12:12,997 - __main__ - INFO - Initializing session state
+2025-06-20 12:12:13,001 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:12:13,004 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:12:13,005 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:14:52,244 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:14:52,244 - __main__ - INFO - Initializing session state
+2025-06-20 12:14:52,249 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:14:52,252 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:14:52,252 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:14:55,006 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:14:55,006 - __main__ - INFO - Initializing session state
+2025-06-20 12:14:55,010 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:14:55,010 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:14:55,012 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:15:01,956 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:15:01,956 - __main__ - INFO - Initializing session state
+2025-06-20 12:15:01,958 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:15:01,960 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:15:01,960 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:15:10,999 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:15:10,999 - __main__ - INFO - Initializing session state
+2025-06-20 12:15:11,003 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:15:11,005 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:15:11,005 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:15:12,834 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:15:12,839 - __main__ - INFO - Initializing session state
+2025-06-20 12:15:12,839 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:15:12,839 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:15:12,839 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:15:16,586 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:15:16,586 - __main__ - INFO - Initializing session state
+2025-06-20 12:15:16,593 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:15:16,593 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:15:16,593 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:15:16,609 - __main__ - INFO - Documents loaded: ['The Positive Power of Negative Thinking _ Psychology Today.pdf']
+2025-06-20 12:15:16,800 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:15:16,802 - __main__ - INFO - Initializing session state
+2025-06-20 12:15:16,802 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:15:16,803 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:15:16,804 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:15:23,104 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:15:23,106 - __main__ - INFO - Initializing session state
+2025-06-20 12:15:23,106 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:15:23,106 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:15:23,109 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:15:24,614 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:15:24,614 - __main__ - INFO - Initializing session state
+2025-06-20 12:15:24,614 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:15:24,614 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:15:24,614 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:15:24,794 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:15:24,796 - __main__ - INFO - Initializing session state
+2025-06-20 12:15:24,797 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:15:24,798 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:15:24,799 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:15:29,491 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:15:29,492 - __main__ - INFO - Initializing session state
+2025-06-20 12:15:29,492 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:15:29,492 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:15:29,492 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:15:29,517 - __main__ - INFO - Starting embedding generation
+2025-06-20 12:15:29,517 - rag_pipeline - INFO - Initializing RAG Pipeline - chunk_size: 1024, overlap: 50, top_k: 5
+2025-06-20 12:15:29,523 - rag_pipeline - INFO - Setting up OpenAI embedding model: text-embedding-3-small
+2025-06-20 12:15:29,533 - rag_pipeline - INFO - OpenAI embedding model configured successfully
+2025-06-20 12:15:30,161 - rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-06-20 12:15:30,161 - rag_pipeline - INFO - Loading 1 documents from upload
+2025-06-20 12:15:30,161 - rag_pipeline - INFO - Processing file: The Positive Power of Negative Thinking _ Psychology Today.pdf
+2025-06-20 12:15:31,531 - rag_pipeline - INFO - Loaded 5 documents from The Positive Power of Negative Thinking _ Psychology Today.pdf
+2025-06-20 12:15:31,531 - rag_pipeline - INFO - Total documents loaded: 5
+2025-06-20 12:15:31,531 - rag_pipeline - INFO - Creating vector index from 5 documents
+2025-06-20 12:15:31,539 - rag_pipeline - INFO - Creating FAISS index with 1536 dimensions
+2025-06-20 12:15:31,543 - rag_pipeline - INFO - Starting vector index creation with LlamaIndex
+2025-06-20 12:15:34,064 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-20 12:15:34,266 - rag_pipeline - INFO - Vector index created successfully
+2025-06-20 12:15:34,271 - __main__ - INFO - Embedding generation completed successfully
+2025-06-20 12:15:34,472 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:15:34,472 - __main__ - INFO - Initializing session state
+2025-06-20 12:15:34,475 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:15:34,475 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:15:34,475 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:15:55,415 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:15:55,418 - __main__ - INFO - Initializing session state
+2025-06-20 12:15:55,418 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:15:55,420 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:15:55,420 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:15:56,612 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:15:56,614 - __main__ - INFO - Initializing session state
+2025-06-20 12:15:56,614 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:15:56,614 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:15:56,614 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:15:56,657 - __main__ - INFO - Generating response using model: gpt-4
+2025-06-20 12:15:56,657 - rag_pipeline - INFO - Executing query: what is this doc about...
+2025-06-20 12:15:56,662 - rag_pipeline - INFO - Generating response with LLM
+2025-06-20 12:15:57,616 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-20 12:16:05,900 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 12:16:05,913 - rag_pipeline - INFO - Found 5 source nodes
+2025-06-20 12:16:05,913 - rag_pipeline - INFO - Query completed successfully
+2025-06-20 12:16:05,913 - __main__ - INFO - Response generated in 9.26 seconds
+2025-06-20 12:16:05,923 - __main__ - INFO - Found 5 source nodes
+2025-06-20 12:21:35,919 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:21:35,922 - __main__ - INFO - Initializing session state
+2025-06-20 12:21:35,926 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:21:35,926 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:21:35,927 - __main__ - INFO - Anthropic API key configured
+2025-06-20 12:21:41,731 - __main__ - INFO - === RAG AI Agent Starting ===
+2025-06-20 12:21:41,732 - __main__ - INFO - Initializing session state
+2025-06-20 12:21:41,734 - __main__ - INFO - Checking API keys configuration
+2025-06-20 12:21:41,736 - __main__ - INFO - OpenAI API key configured
+2025-06-20 12:21:41,736 - __main__ - INFO - Anthropic API key configured

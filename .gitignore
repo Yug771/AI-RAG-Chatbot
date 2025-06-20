@@ -52,10 +52,7 @@ venv.bak/
 # Data and uploads
 data/uploads/*
 !data/uploads/.gitkeep
-storage/
-*.pdf
-*.docx
-*.txt
+
 
 # Vector stores and indexes
 *.faiss
@@ -63,8 +60,7 @@ storage/
 *.pkl
 *.pickle
 
-# Logs
-*.log
+
 logs/
 
 # OS generated files
