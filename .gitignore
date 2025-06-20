@@ -1,0 +1,100 @@
+# Environment and API keys
+.env
+.env.local
+.env.production
+.env.staging
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+Environment/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/
+
+# Data and uploads
+data/uploads/*
+!data/uploads/.gitkeep
+storage/
+*.pdf
+*.docx
+*.txt
+
+# Vector stores and indexes
+*.faiss
+*.index
+*.pkl
+*.pickle
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+
+# Model files (can be large)
+models/
+*.bin
+*.safetensors
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~ 
+
+.streamlit/
+# Coverage reports
+.coverage
+.streamlit
+.coverage
